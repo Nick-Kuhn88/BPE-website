@@ -7,7 +7,7 @@
 }
 
 body {
-  
+
 }
 
 .hero {
@@ -28,11 +28,13 @@ body {
 .company {
   color: white;
   size: 1500px;
+  font-size: 90px;
   margin-top: 40px;
 }
 
 .sub {
   color: white;
+  font-size: 20px;
 }
 
 .navbar-Brand {
