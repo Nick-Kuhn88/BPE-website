@@ -79,8 +79,15 @@ button {
   font-size: 25px;
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.box {
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 80px;
 }
 
 .underline {
@@ -93,4 +100,16 @@ button {
 #who-we-are {
   text-align: center;
   font-size: 35px;
+}
+
+img {
+  height: 800px;
+  width: 100%;
+}
+
+.about-us {
+  margin-top: 350px;
+}
+.clear {
+  clear: both;
 }
