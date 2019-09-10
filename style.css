@@ -66,4 +66,9 @@ body {
 
 #who-we-are {
   text-align: center;
+  font-size: 35px;
+}
+
+button {
+  text-align: center;
 }
