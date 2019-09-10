@@ -24,6 +24,36 @@ body {
   box-shadow: 0px 1px 3px #2a2a2a;
 }
 
+.header-container {
+  background-image: url('images/prism.png');
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+li {
+  display: inline-block;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.Brand {
+  font-size: 50px;
+  margin-right: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  text-decoration: none;
+}
+
 .greeting {
   text-shadow: 1px, 1px grey;
   margin-bottom: 30px;
@@ -41,20 +71,16 @@ body {
   font-size: 25px;
 }
 
-.navbar-Brand {
-    padding: 5;
-    height: auto;
-    width: auto;
-    font-size: 50px;
-    font-family: 'Play', sans-serif;
-    font-weight: bold;
-    margin-right: 30px;
+button {
+  text-align: center;
 }
-
+/* About us page  */
 .about-us {
-  font-size: 20px;
+  font-size: 25px;
   background: rgba(0, 0, 0, 0.5);
   color: white;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .underline {
@@ -67,8 +93,4 @@ body {
 #who-we-are {
   text-align: center;
   font-size: 35px;
-}
-
-button {
-  text-align: center;
 }
