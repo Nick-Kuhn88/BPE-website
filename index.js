@@ -18,3 +18,7 @@ function myFunction() {
 
   console.log('this works')
 }
+
+$(document).ready(function(){
+    $(".fadeOnLoad").fadeIn('slow')
+});

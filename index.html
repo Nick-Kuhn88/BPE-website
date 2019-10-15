@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- eventually change to actual favicon -->
@@ -13,7 +14,8 @@
 
     <!-- Custom Css -->
     <link href="style.css" rel="stylesheet">
-
+    <link href="footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -33,7 +35,7 @@
     <ul class="links-container">
       <li><a class="Brand" href="index.html">BPE</a></li>
       <li><a href="about.html" class="nav-link">About Us</a></li>
-      <li><a href="#" class="nav-link">Our Shows</a></li>
+      <li><a href="shows.html" class="nav-link">Our Shows</a></li>
       <li><a href="#" class="nav-link">The Team</a></li>
       <li class="float-right"><a href="#" class="nav-link" id="contact">Contact</a></li>
     </ul>
@@ -43,7 +45,7 @@
 
 
     <div class="greeting text-center">
-      <h1 class="company"> Brock Pro Entertainment</h1>
+      <h1 id="company" class="fadeOnLoad"> Brock Pro Entertainment</h1>
       <h4 class="sub">THE NEWEST FACE OF CONCERTS, CABARETS, AND CUSTOMIZED
         EVENTS.</h4>
     </div>
@@ -58,6 +60,50 @@
       </a>
     </div>
   </div>
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="foot-item col-12 col-sm-3">
+          <b>About:</b>
+          <br />
+          <a href="about.html">Who we are</a>
+          <br />
+        </div>
+        <div class="foot-item col-12 col-sm-3">
+          <b>Our Shows:</b>
+          <br />
+          <a href="#">Show Roster</a>
+          <br />
+          <a href="#">Upcoming Shows</a>
+        </div>
+        <div class="foot-item col-12 col-sm-3">
+          <b>Contact:</b>
+          <br />
+          <a href="mailto:info@brockpro.org" style="text-decoration: none;">Send us an email!</a>
+          <br />
+          My Address
+          <br />
+          Peoria, AZ 85382
+        </div>
+        <div class="foot-item col-12 col-sm-3 social">
+          <b>Social:</b>
+          <br />
+          <br />
+          <a href="https://www.facebook.com/BrockProEntertainment/">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/brockproentertainment/">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/TheRealBPE">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
 
