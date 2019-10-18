@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.11.2"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2"
   }
 }
