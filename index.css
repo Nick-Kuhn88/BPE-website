@@ -1,0 +1,42 @@
+.home {
+  display: block;
+}
+
+.about {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background-image: url('images/bg.jpg'); no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.greeting {
+  text-shadow: 1px, 1px grey;
+  margin-bottom: 30px;
+}
+
+#company {
+  color: white;
+  size: 1500px;
+  font-size: 90px;
+  margin-top: 40px;
+}
+
+.sub {
+  color: white;
+  font-size: 25px;
+}
+
+button {
+  text-align: center;
+}
