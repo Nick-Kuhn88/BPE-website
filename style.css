@@ -11,7 +11,7 @@ html {
 }
 
 .header-container {
-  background-image: url('images/prism.png');
+  background-image: url('images/header-bg.png');
   position: fixed;
   top: 0;
   width: 100%

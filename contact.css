@@ -1,0 +1,19 @@
+.email-form {
+  background-image: url('images/contact-bg.jpg'); no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  margin-top: none;
+  margin-bottom: none;
+}
+
+.contact-heading {
+  color: white;
+}
+
+.contact-sub {
+  color: white;
+}
