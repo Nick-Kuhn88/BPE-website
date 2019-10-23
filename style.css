@@ -42,3 +42,11 @@ li {
 .Brand:hover {
   text-decoration: none;
 }
+
+@media {
+  .header-container {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
