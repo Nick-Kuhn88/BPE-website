@@ -23,6 +23,10 @@ html {
 .greeting {
   text-shadow: 1px, 1px grey;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #company {
