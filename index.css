@@ -34,13 +34,16 @@ html {
   size: 1500px;
   font-size: 90px;
   margin-top: 40px;
+  z-index: 1;
 }
 
 .sub {
   color: white;
   font-size: 25px;
+  z-index: 1;
 }
 
 button {
   text-align: center;
+  z-index: 1;
 }
