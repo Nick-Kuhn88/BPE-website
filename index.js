@@ -1,3 +1,13 @@
+
+function myFunction() {
+  var x = document.getElementById("my-header-container");
+  if (x.className === "header-container") {
+    x.className += " responsive";
+  } else {
+    x.className = "header-container";
+  }
+}
+
 // refactor that logic
 
 function myFunction() {
