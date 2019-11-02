@@ -1,8 +1,12 @@
-body {
+.show-content {
   background-image: url('images/indivShowsBG.png'); no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.show-title {
+  display: inline-block;
 }
