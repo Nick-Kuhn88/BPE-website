@@ -1,5 +1,5 @@
 
-function myFunction() {
+function myNavFunction() {
   var x = document.getElementById("my-header-container");
   if (x.className === "header-container") {
     x.className += " responsive";
